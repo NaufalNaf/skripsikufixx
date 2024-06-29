@@ -1,4 +1,5 @@
 import streamlit as st
+import joblib
 
 clf = joblib.load('klasifikasi_obesitas.pkl')
 
